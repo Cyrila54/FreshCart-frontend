@@ -96,7 +96,7 @@
   .userIcon,
   .shopIcon,
   .searchIcon {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: #889397;
     margin: 0 0.2rem;
     cursor: pointer;
@@ -105,7 +105,7 @@
   /* <-- Mobile Version --> */
   .menu_mobile {
     color: #198754;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin: 0 0.2rem;
     cursor: pointer;
   }
@@ -246,7 +246,7 @@
   .userIcon,
   .shopIcon,
   .searchIcon {
-    font-size: 1.4rem;
+    font-size: 2rem;
     color: #889397;
     margin: 0 0.2rem;
     cursor: pointer;
@@ -255,7 +255,7 @@
   /* <-- Mobile Version --> */
   .menu_mobile {
     color: #198754;
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin: 0 0.2rem;
     cursor: pointer;
   }
