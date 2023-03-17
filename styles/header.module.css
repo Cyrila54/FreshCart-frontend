@@ -1,0 +1,889 @@
+/* *** @media only screen and (max-width: 320px) *** */
+@media only screen and (max-width: 320px) {
+  /* <------ MAIN CONTAINER ------> */
+  .mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+  }
+
+  /* <------ TOP CONTAINER ------> */
+
+  .top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  /* <-- Logo & Search Bloc --> */
+
+  .logo {
+    padding-right: 1rem;
+    height: 1.5rem;
+  }
+
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    width: 75%;
+  }
+
+  .inputContainer {
+    display: none;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    padding-right: 1rem;
+  }
+
+  .searchInput {
+    width: 100%;
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .searchInput:focus {
+    width: 100%;
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    color: #5c6c75;
+    outline: none;
+  }
+
+  .locationIcon {
+    font-size: 1rem;
+    margin-right: 0.3rem;
+  }
+
+  .locationButton {
+    display: none;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    padding: 0.7rem;
+    color: #889397;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .locationButton:hover {
+    display: flex;
+    align-items: center;
+    background-color: #889397;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    padding: 0.7rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  /* <-- Icons Bloc --> */
+  .icons_container {
+    display: flex;
+  }
+
+  .likeIcon,
+  .userIcon,
+  .shopIcon,
+  .searchIcon {
+    font-size: 1.4rem;
+    color: #889397;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+
+  /* <-- Mobile Version --> */
+  .menu_mobile {
+    color: #198754;
+    font-size: 1.4rem;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+
+  .likeIcon {
+    display: none;
+  }
+
+  /* <------ BOTTOM CONTAINER ------> */
+
+  .bottom_container {
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .navigation ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  .navigation ul li {
+    padding-right: 1.4rem;
+    color: #3d4f58;
+  }
+
+  .gridIcon {
+    margin-right: 0.5rem;
+  }
+
+  .departmentButton {
+    display: flex;
+    align-items: center;
+    background-color: #198754;
+    padding: 0.8rem 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    color: white !important;
+  }
+}
+/* *** @media only screen and (min-width: 321px) and (max-width: 599px) *** */
+@media only screen and (min-width: 321px) and (max-width: 599px) {
+  /* <------ MAIN CONTAINER ------> */
+  .mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+  }
+
+  /* <------ TOP CONTAINER ------> */
+
+  .top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  /* <-- Logo & Search Bloc --> */
+
+  .logo {
+    padding-right: 1rem;
+    height: 1.8rem;
+  }
+
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    width: 75%;
+  }
+
+  .inputContainer {
+    display: none;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    padding-right: 1rem;
+  }
+
+  .searchInput {
+    width: 100%;
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .searchInput:focus {
+    width: 100%;
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    color: #5c6c75;
+    outline: none;
+  }
+
+  .locationIcon {
+    font-size: 1rem;
+    margin-right: 0.3rem;
+  }
+
+  .locationButton {
+    display: none;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    padding: 0.7rem;
+    color: #889397;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .locationButton:hover {
+    display: flex;
+    align-items: center;
+    background-color: #889397;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    padding: 0.7rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  /* <-- Icons Bloc --> */
+  .icons_container {
+    display: flex;
+  }
+
+  .likeIcon,
+  .userIcon,
+  .shopIcon,
+  .searchIcon {
+    font-size: 1.4rem;
+    color: #889397;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+
+  /* <-- Mobile Version --> */
+  .menu_mobile {
+    color: #198754;
+    font-size: 1.4rem;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+
+  .likeIcon {
+    display: none;
+  }
+
+  /* <------ BOTTOM CONTAINER ------> */
+
+  .bottom_container {
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .navigation ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  .navigation ul li {
+    padding-right: 1.4rem;
+    color: #3d4f58;
+  }
+
+  .gridIcon {
+    margin-right: 0.5rem;
+  }
+
+  .departmentButton {
+    display: flex;
+    align-items: center;
+    background-color: #198754;
+    padding: 0.8rem 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    color: white !important;
+  }
+}
+/* *** @media only screen and (min-width: 575px) and (max-width: 767px) ***  */
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  /* <------ MAIN CONTAINER ------> */
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+    width: 100%;
+    height: 12vh;
+  }
+
+  /* <------ TOP CONTAINER ------> */
+
+  .top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* <-- Logo & Search Bloc --> */
+
+  .logo {
+    padding-right: 3rem;
+    height: 2rem;
+  }
+
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    width: 75%;
+  }
+
+  .inputContainer {
+    display: none;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    padding-right: 1rem;
+  }
+
+  .searchInput {
+    width: 100%;
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+  .searchInput:focus {
+    width: 100%;
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    color: #5c6c75;
+    outline: none;
+  }
+
+  .locationIcon {
+    font-size: 1rem;
+    margin-right: 0.3rem;
+  }
+
+  .locationButton {
+    display: none;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    padding: 0.7rem;
+    color: #889397;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .locationButton:hover {
+    display: flex;
+    align-items: center;
+    background-color: #889397;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    padding: 0.7rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  /* <-- Icons Bloc --> */
+  .likeIcon,
+  .userIcon,
+  .shopIcon,
+  .searchIcon {
+    font-size: 1.5rem;
+    color: #889397;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+
+  /* <-- Mobile Version --> */
+  .menu_mobile {
+    color: #198754;
+    font-size: 1.5rem;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+
+  .likeIcon {
+    display: none;
+  }
+
+  /* <------ BOTTOM CONTAINER ------> */
+
+  .bottom_container {
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .navigation ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  .navigation ul li {
+    padding-right: 1.4rem;
+    color: #3d4f58;
+  }
+
+  .gridIcon {
+    margin-right: 0.5rem;
+  }
+
+  .departmentButton {
+    display: flex;
+    align-items: center;
+    background-color: #198754;
+    padding: 0.8rem 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    color: white !important;
+  }
+}
+
+/* *** @media only screen and (min-width: 768px) and (max-width: 999px) ***  */
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+  /* <------ MAIN CONTAINER ------> */
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+    width: 100%;
+    height: 15vh;
+  }
+
+  /* <------ TOP CONTAINER ------> */
+
+  .top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* <-- Logo & Search Bloc --> */
+
+  .logo {
+    padding-right: 3rem;
+    height: 2rem;
+  }
+
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    width: 75%;
+  }
+
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    padding-right: 1rem;
+  }
+
+  .searchInput {
+    width: 100%;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+  .searchInput:focus {
+    width: 100%;
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    color: #5c6c75;
+    outline: none;
+  }
+
+  .locationIcon {
+    font-size: 1rem;
+    margin-right: 0.3rem;
+  }
+
+  .locationButton {
+    display: none;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    padding: 0.7rem;
+    color: #889397;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .locationButton:hover {
+    display: flex;
+    align-items: center;
+    background-color: #889397;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    padding: 0.7rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  /* <-- Icons Bloc --> */
+
+  .likeIcon,
+  .userIcon,
+  .shopIcon,
+  .searchIcon {
+    font-size: 1.5rem;
+    color: #889397;
+    margin: 0 0.4rem;
+    cursor: pointer;
+  }
+
+  /* <-- Mobile Version --> */
+  .menu_mobile {
+    color: #198754;
+    font-size: 1.5rem;
+    margin: 0 0.4rem;
+    cursor: pointer;
+  }
+
+  .likeIcon {
+    display: none;
+  }
+
+  /* <------ BOTTOM CONTAINER ------> */
+
+  .bottom_container {
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .navigation ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  .navigation ul li {
+    padding-right: 1.4rem;
+    color: #3d4f58;
+  }
+
+  .gridIcon {
+    margin-right: 0.5rem;
+  }
+
+  .departmentButton {
+    display: flex;
+    align-items: center;
+    background-color: #198754;
+    padding: 0.8rem 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    color: white !important;
+  }
+}
+/* *** @media only screen and (min-width: 1000px) and (max-width: 1199px) *** */
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
+  /* <------ MAIN CONTAINER ------> */
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+    width: 100%;
+    height: 15vh;
+  }
+
+  /* <------ TOP CONTAINER ------> */
+
+  .top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* <-- Logo & Search Bloc --> */
+
+  .logo {
+    padding-right: 3rem;
+    height: 2rem;
+  }
+
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    width: 75%;
+  }
+
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #dfe2e1;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    padding-right: 1rem;
+
+  }
+
+  .searchInput {
+    width: 100%;
+    padding: 0.6rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius:8px;
+    font-size: 0.9rem;
+    color: #dfe2e1;
+  }
+  .searchInput:focus {
+    width: 100%;
+    padding: 0.6rem;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    border: none;
+    color: #5c6c75;
+    outline: none;
+  }
+
+  .locationIcon {
+    font-size: 1rem;
+    margin-right: 0.3rem;
+  }
+
+  .locationButton {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    padding: 0.6rem;
+    color: #889397;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .locationButton:hover {
+    display: flex;
+    align-items: center;
+    background-color: #889397;
+    border-radius: 8px;
+    border: 1px solid #c1c7c6;
+    padding: 0.6rem;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  /* <-- Icons Bloc --> */
+
+  .likeIcon,
+  .userIcon,
+  .shopIcon,
+  .searchIcon {
+    font-size: 1.4rem;
+    color: #889397;
+    margin: 0 0.4rem;
+    cursor: pointer;
+  }
+
+  /* <-- Mobile Version --> */
+  .menu_mobile {
+    color: #198754;
+    font-size: 1.5rem;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+
+  .menu_mobile {
+    display: none;
+  }
+
+  /* <------ BOTTOM CONTAINER ------> */
+
+  .bottom_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .navigation ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  .navigation ul li {
+    padding-right: 1rem;
+    color: #3d4f58;
+  }
+
+  .gridIcon {
+    margin-right: 0.5rem;
+  }
+
+  .departmentButton {
+    display: flex;
+    align-items: center;
+    background-color: #0aad0a;
+    padding: 0.8rem 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    color: white !important;
+  }
+}
+
+/* *** @media only screen and (min-width: 1200px) *** */
+@media only screen and (min-width: 1200px) {
+  /* <------ MAIN CONTAINER ------> */
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+    width: 100%;
+    height: 15vh;
+  }
+
+  /* <------ TOP CONTAINER ------> */
+
+  .top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* <-- Logo & Search Bloc --> */
+
+  .logo {
+    padding-right: 3rem;
+    height: 2rem;
+  }
+
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    width: 75%;
+  }
+
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #dfe2e1;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    padding-right: 1rem;
+
+  }
+
+  .searchInput {
+    width: 100%;
+    padding: 0.6rem;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius:8px;
+    font-size: 0.9rem;
+    color: #dfe2e1;
+  }
+  .searchInput:focus {
+    width: 100%;
+    padding: 0.6rem;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    border: none;
+    color: #5c6c75;
+    outline: none;
+  }
+
+  .locationIcon {
+    font-size: 1rem;
+    margin-right: 0.3rem;
+  }
+
+  .locationButton {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #c1c7c6;
+    padding: 0.6rem;
+    color: #889397;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .locationButton:hover {
+    display: flex;
+    align-items: center;
+    background-color: #889397;
+    border-radius: 8px;
+    border: 1px solid #c1c7c6;
+    padding: 0.6rem;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+
+  /* <-- Icons Bloc --> */
+
+  .likeIcon,
+  .userIcon,
+  .shopIcon,
+  .searchIcon {
+    font-size: 1.5rem;
+    color: #889397;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+
+  /* <-- Mobile Version --> */
+  .menu_mobile {
+    color: #198754;
+    font-size: 1.5rem;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+
+  .menu_mobile {
+    display: none;
+  }
+
+  /* <------ BOTTOM CONTAINER ------> */
+
+  .bottom_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .navigation ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  .navigation ul li {
+    padding-right: 1.4rem;
+    color: #3d4f58;
+  }
+
+  .gridIcon {
+    margin-right: 0.5rem;
+  }
+
+  .departmentButton {
+    display: flex;
+    align-items: center;
+    background-color: #0aad0a;
+    padding: 0.8rem 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    color: white !important;
+  }
+}

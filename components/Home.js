@@ -1,13 +1,17 @@
 import styles from '../styles/Home.module.css';
+import CardGrid from './GroceryBanner';
+import FeaturedCategories from './FeaturedCategories';
+import Header from './Header'
+import Hero from './Hero';
 
 function Home() {
   return (
     <div>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      </main>
+      <Header />
+      <Hero/>
+      <FeaturedCategories/>
+    <CardGrid/>
+      
     </div>
   );
 }
