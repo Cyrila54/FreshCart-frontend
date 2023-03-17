@@ -250,6 +250,8 @@
   border-radius: 5px;
   padding: 0.5rem;
   margin: 0.3rem;
+  width: 40vw;
+  height: 40vw;
 }
 
 .featuredProduct:hover {
@@ -264,6 +266,8 @@
   cursor: pointer;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   color: #0aad0a;
+  width: 40vw;
+  height: 40vw;
 }
 
 
@@ -348,7 +352,6 @@
   flex-direction: column;
   align-items: center;
   border: 1px solid #dfe2e1;
-  width: 10vw;
   border-radius: 5px;
   padding: 0.5rem;
   margin: 0.3rem;
@@ -442,7 +445,6 @@
   flex-direction: column;
   align-items: center;
   border: 1px solid #dfe2e1;
-  width: 10vw;
   border-radius: 5px;
   padding: 0.5rem;
   margin: 0.3rem;
