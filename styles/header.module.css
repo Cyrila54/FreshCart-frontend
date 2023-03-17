@@ -538,7 +538,7 @@
   .userIcon,
   .shopIcon,
   .searchIcon {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #889397;
     margin: 0 0.4rem;
     cursor: pointer;
@@ -547,7 +547,7 @@
   /* <-- Mobile Version --> */
   .menu_mobile {
     color: #198754;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: 0 0.4rem;
     cursor: pointer;
   }
