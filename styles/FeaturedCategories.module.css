@@ -1,4 +1,4 @@
-@import "react-alice-carousel/lib/alice-carousel.css";
+
 
 /* *** @media only screen and (max-width: 320px) *** */
 @media only screen and (max-width: 320px) {
@@ -37,7 +37,7 @@
     border-radius: 50%;
     padding: 0.3rem;
     margin: 0.3rem;
-    height: 1.8rem;
+    height: 2rem;
     width: auto;
     cursor: pointer;
   }
@@ -130,7 +130,7 @@
     border-radius: 50%;
     padding: 0.3rem;
     margin: 0.3rem;
-    height: 1.8rem;
+    height: 2.2rem;
     width: auto;
     cursor: pointer;
   }
@@ -142,7 +142,7 @@
     border-radius: 50%;
     padding: 0.3rem;
     margin: 0.3rem;
-    height: 1.8rem;
+    height: 2.2rem;
     width: auto;
     cursor: pointer;
   }
