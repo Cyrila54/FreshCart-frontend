@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/hero.module.css";
+import styles from "../styles/Hero.module.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
