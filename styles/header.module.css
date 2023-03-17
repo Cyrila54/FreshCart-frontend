@@ -96,17 +96,17 @@
   .userIcon,
   .shopIcon,
   .searchIcon {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #889397;
-    margin: 0 0.2rem;
+    margin: 0 0.4rem;
     cursor: pointer;
   }
 
   /* <-- Mobile Version --> */
   .menu_mobile {
     color: #198754;
-    font-size: 1.8rem;
-    margin: 0 0.2rem;
+    font-size: 1.6rem;
+    margin: 0 0.4rem;
     cursor: pointer;
   }
 
@@ -246,17 +246,17 @@
   .userIcon,
   .shopIcon,
   .searchIcon {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #889397;
-    margin: 0 0.2rem;
+    margin: 0 0.4rem;
     cursor: pointer;
   }
 
   /* <-- Mobile Version --> */
   .menu_mobile {
     color: #198754;
-    font-size: 2rem;
-    margin: 0 0.2rem;
+    font-size: 1.8rem;
+    margin: 0 0.4rem;
     cursor: pointer;
   }
 
@@ -391,17 +391,17 @@
   .userIcon,
   .shopIcon,
   .searchIcon {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #889397;
-    margin: 0 0.2rem;
+    margin: 0 0.4rem;
     cursor: pointer;
   }
 
   /* <-- Mobile Version --> */
   .menu_mobile {
     color: #198754;
-    font-size: 2rem;
-    margin: 0 0.2rem;
+    font-size: 1.8rem;
+    margin: 0 0.4rem;
     cursor: pointer;
   }
 
