@@ -1,7 +1,7 @@
 
 
 /* *** @media only screen and (max-width: 320px) *** */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 399px) {
   /* <----------- MAIN CONTENT --------> */
   .main {
     display: flex;
@@ -68,8 +68,8 @@
     border-radius: 5px;
     padding: 0.5rem;
     margin: 0.3rem;
-    width: 40vw;
-    height: 40vw;
+    width: 45vw;
+    height: 50vw;
   }
 
   .featuredProduct:hover {
@@ -85,16 +85,17 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
       rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     color: #0aad0a;
-    width: 40vw;
-    height: 40vw;
+    width: 45vw;
+    height: 50vw;
   }
 
   .productName {
     font-size: 1rem;
+    text-align: center;
   }
 }
 /* *** @media only screen and (min-width: 321px) and (max-width: 574px) *** */
-@media only screen and (min-width: 321px) and (max-width: 574px) {
+@media only screen and (min-width: 400px) and (max-width: 574px) {
   /* <----------- MAIN CONTENT --------> */
   .main {
     display: flex;
@@ -159,10 +160,10 @@
     align-items: center;
     border: 1px solid #dfe2e1;
     border-radius: 5px;
-    padding: 0.5rem;
+    padding: 0.3rem;
     margin: 0.3rem;
-    width: 40vw;
-    height: 40vw;
+    width: 45vw;
+    height: max-content;
   }
 
   .featuredProduct:hover {
@@ -178,8 +179,8 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
       rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     color: #0aad0a;
-    width: 40vw;
-    height: 40vw;
+    width: 45vw;
+    height: 45vw;
   }
 
   .productName {
@@ -256,7 +257,7 @@
     padding: 0.3rem;
     margin: 0.3rem;
     width: 25vw;
-    height: 25vw;
+    height:32vw;
   }
 
   .featuredProduct:hover {
@@ -273,11 +274,12 @@
       rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     color: #0aad0a;
     width: 25vw;
-    height: 27vw;
+    height: 32vw;
   }
 
   .productName {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    text-align: center;
   }
 }
 /* *** @media only screen and (min-width: 768px) and (max-width: 999px) ***  */
