@@ -243,7 +243,7 @@
 
   /* <----------- IMAGE & TITLE CAROUSEL --------> */
   .carouselImg {
-    margin-top: 1rem;
+
     object-fit: contain;
   }
 
@@ -253,10 +253,10 @@
     align-items: center;
     border: 1px solid #dfe2e1;
     border-radius: 5px;
-    padding: 0.5rem;
+    padding: 0.3rem;
     margin: 0.3rem;
-    width: 40vw;
-    height: 40vw;
+    width: 25vw;
+    height: 25vw;
   }
 
   .featuredProduct:hover {
@@ -272,12 +272,12 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
       rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     color: #0aad0a;
-    width: 40vw;
-    height: 40vw;
+    width: 25vw;
+    height: 27vw;
   }
 
   .productName {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 /* *** @media only screen and (min-width: 768px) and (max-width: 999px) ***  */
@@ -336,7 +336,7 @@
 
   /* <----------- IMAGE & TITLE CAROUSEL --------> */
   .carouselImg {
-    margin-top: 1rem;
+
     object-fit: contain;
   }
 
@@ -346,9 +346,10 @@
     align-items: center;
     border: 1px solid #dfe2e1;
     border-radius: 5px;
-    padding: 0.5rem;
+    padding: 0.3rem;
     margin: 0.3rem;
     width: 20vw;
+    height: 25vw;
   }
 
   .featuredProduct:hover {
@@ -365,10 +366,11 @@
       rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     color: #0aad0a;
     width: 20vw;
+    height: 25vw;
   }
 
   .productName {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -409,7 +411,7 @@
     border-radius: 50%;
     padding: 0.3rem;
     margin: 0.3rem;
-    height: 2.6rem;
+    height: 2rem;
     width: auto;
     cursor: pointer;
   }
@@ -421,7 +423,7 @@
     border-radius: 50%;
     padding: 0.3rem;
     margin: 0.3rem;
-    height: 2.6rem;
+    height: 2rem;
     width: auto;
     cursor: pointer;
   }
@@ -500,7 +502,7 @@
     border-radius: 50%;
     padding: 0.3rem;
     margin: 0.3rem;
-    height: 2.6rem;
+    height: 2rem;
     width: auto;
     cursor: pointer;
   }
@@ -512,7 +514,7 @@
     border-radius: 50%;
     padding: 0.3rem;
     margin: 0.3rem;
-    height: 2.6rem;
+    height: 2rem;
     width: auto;
     cursor: pointer;
   }
