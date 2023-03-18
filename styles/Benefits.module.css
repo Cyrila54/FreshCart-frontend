@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+/* *** @media only screen and (max-width: 320px) *** */
+@media only screen and (max-width: 320px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        font-family: "Inter", sans-serif;
+        padding-bottom: 2rem;
+        padding-top: 5rem;
+      }
+    
+      .grid_card {
+        padding: 1rem;
+        background-color: #f6f6f6;
+        margin-top: 1rem;
+        border-radius: 0.5rem;
+      }
+    
+      .grid_card h4 {
+        color: #21313c;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+    
+      .grid_card p {
+        color: #5c6c75;
+        line-height: 1.3rem;
+        font-size: 0.9rem;
+      }
+}
+/* *** @media only screen and (min-width: 321px) and (max-width: 574px) *** */
+@media only screen and (min-width: 321px) and (max-width: 574px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+  }
+
+  .grid_card {
+    padding: 1rem;
+    background-color: #f6f6f6;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .grid_card h4 {
+    color: #21313c;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .grid_card p {
+    color: #5c6c75;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* *** @media only screen and (min-width: 575px) and (max-width: 767px) ***  */
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  .grid_card {
+    padding: 2rem;
+  }
+
+  .grid_card h4 {
+    color: #21313c;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .grid_card p {
+    color: #5c6c75;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+  }
+}
+/* *** @media only screen and (min-width: 768px) and (max-width: 999px) ***  */
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  .grid_card {
+    padding-right: 2rem;
+    width: 50%;
+    padding-bottom: 2rem;
+  }
+
+  .grid_card h4 {
+    color: #21313c;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .grid_card p {
+    color: #5c6c75;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* *** @media only screen and (min-width: 1000px) and (max-width: 1199px) *** */
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
+  .main {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  .grid_card {
+    padding-right: 2rem;
+  }
+
+  .grid_card h4 {
+    color: #21313c;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .grid_card p {
+    color: #5c6c75;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+  }
+}
+/*@media only screen and (min-width: 1200px) and (max-width: 1499px)*/
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+  .main {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  .grid_card {
+    padding-right: 3rem;
+  }
+
+  .grid_card h4 {
+    color: #21313c;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .grid_card p {
+    color: #5c6c75;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* *** @media only screen and (min-width: 1600px) *** */
+@media only screen and (min-width: 1600px) {
+}
