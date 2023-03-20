@@ -18,6 +18,7 @@ function Home() {
     <PopularProducts/>
     <DailyBestSells/>
     <Benefits/>
+   
     <Footer/>
 
       

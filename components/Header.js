@@ -6,8 +6,15 @@ import {
 } from "react-icons/ai";
 import { CiLocationOn, CiSearch, CiGrid41 } from "react-icons/ci";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
+import Home_menu from "./Menu-Navigation/Home_menu";
+import Test from "./Menu-Navigation/Test";
+
 
 export default function Header() {
+
+
+
+
   return (
     <main className={styles.mainContainer}>
       <div className={styles.top_container}>
@@ -33,25 +40,30 @@ export default function Header() {
           <AiOutlineHeart className={styles.likeIcon} />
           <AiOutlineUser className={styles.userIcon} />
           <AiOutlineShopping className={styles.shopIcon} />
-          <AiOutlineMenuUnfold className={styles.menu_mobile}/>
+          <AiOutlineMenuUnfold className={styles.menu_mobile} />
         </div>
       </div>
       <div className={styles.bottom_container}>
         <nav className={styles.navigation}>
           <ul>
-            <li className={styles.departmentButton}>
+            <button className={styles.departmentButton}>
               <CiGrid41 className={styles.gridIcon} />
               All Departments
-            </li>
-            <li>Home</li>
+            </button>
+            <Home_menu/>
+           
+            
             <li>Shop</li>
             <li>Store</li>
             <li>Mega Menu</li>
             <li>Pages</li>
             <li>Account</li>
             <li>Dashboard</li>
+            
           </ul>
         </nav>
+        <Test/>
+
       </div>
     </main>
   );

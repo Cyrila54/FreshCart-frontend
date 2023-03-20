@@ -1,0 +1,11 @@
+.backup {
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+
+    color: var(--fc-nav-link-color);
+    display: block;
+    font-size: var(--fc-nav-link-font-size);
+    font-weight: var(--fc-nav-link-font-weight);
+    padding: var(--fc-nav-link-padding-y) var(--fc-nav-link-padding-x);
+    text-decoration: none;
+}

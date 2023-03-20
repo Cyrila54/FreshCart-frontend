@@ -1,0 +1,26 @@
+.home_link{
+    padding-right: 1.4rem;
+    color: #3d4f58;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+
+
+}
+
+.home_link:hover{
+    padding-right: 1.4rem;
+    color: #3d4f58;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+.menu{
+
+width: 20vw;
+}

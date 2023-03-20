@@ -1,3 +1,5 @@
+
+
 /* *** @media only screen and (max-width: 320px) *** */
 @media only screen and (max-width: 320px) {
   /* <------ MAIN CONTAINER ------> */
@@ -871,6 +873,9 @@
   .navigation ul li {
     padding-right: 1.4rem;
     color: #3d4f58;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
   }
 
   .gridIcon {
@@ -885,5 +890,32 @@
     margin-right: 1rem;
     border-radius: 10px;
     color: white !important;
+    border: none;
+    cursor: pointer;
   }
+}
+
+.homeMenu{
+
+
+}
+
+.homeMenu ul {
+  display: flex;
+  flex-direction: column;
+  z-index: 9;
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+  margin: 1em 0;
+  position: fixed;
+  top: 90px;
+  left: 230px;
+}
+
+.homeMenu ul li{
+
+
+
 }
