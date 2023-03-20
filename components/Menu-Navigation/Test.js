@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import styles from "./Menu-Navigation/Test.module.css";
+import styles from "../Menu-Navigation/Home_menu.module.css";
+import {BiChevronDown} from 'react-icons/bi'
 
-export default function Test() {
+export default function Home_menu() {
   const [modal, setModal] = useState(false);
 
   const menuItems = [
@@ -19,9 +20,27 @@ export default function Test() {
     },
   ];
 
+  const handleOpen = () => {
+    setModal(!modal);
+  };
+
   return (
-    <nav>
-      <ul className="menus">Nav Items here</ul>
+    <nav 
+    onMouseEnter={() => handleOpen()} 
+    onMouseLeave={() => handleOpen()} 
+    className={styles.navigation}>
+      <ul >
+        <li>Test <BiChevronDown/></li>
+        {modal &&
+          menuItems.map((menu, index) => {
+            return (
+              <li className={styles.menuItems} key={index}>
+                <a href={menu.url}>{menu.title}</a>
+              </li>
+            );
+          })}
+      </ul>
+    
     </nav>
   );
 }

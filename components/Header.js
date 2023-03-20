@@ -44,25 +44,29 @@ export default function Header() {
         </div>
       </div>
       <div className={styles.bottom_container}>
-        <nav className={styles.navigation}>
-          <ul>
-            <button className={styles.departmentButton}>
+        <div className={styles.navigation}>
+          
+             <button className={styles.departmentButton}>
               <CiGrid41 className={styles.gridIcon} />
               All Departments
-            </button>
+            </button> 
+            
             <Home_menu/>
+            <Home_menu/>
+            <Test/>
+
            
             
-            <li>Shop</li>
+{/*             <li>Shop</li>
             <li>Store</li>
             <li>Mega Menu</li>
             <li>Pages</li>
             <li>Account</li>
-            <li>Dashboard</li>
+            <li>Dashboard</li> */}
             
-          </ul>
-        </nav>
-        <Test/>
+          
+        </div>
+        
 
       </div>
     </main>
