@@ -15,7 +15,7 @@ export default function FeaturedCategories() {
     0: { items: 1 },
     321: { items: 2 },
     575: { items: 3 },
-    768: { items: 3 },
+    768: { items: 4 },
     1000: { items: 4 },
     1200: { items: 6 },
   };
