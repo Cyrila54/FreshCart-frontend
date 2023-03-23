@@ -602,7 +602,7 @@
     padding-top: 1rem;
     width: 100%;
     height: 15vh;
-
+    
   }
 
   /* <------ TOP CONTAINER ------> */
@@ -611,7 +611,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0aad0a;
   }
   /* <-- Logo & Search Bloc --> */
 
