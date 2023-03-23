@@ -444,9 +444,8 @@
     border-radius: 5px;
     padding: 0.5rem;
     margin: 0.3rem;
-    width: 40rem;
+    width: 25vw;
     height: auto;
-    background-color: #889397;
    
   }
 
@@ -463,7 +462,7 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
       rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     color: #0aad0a;
-    width: 40rem;
+    width: 25vw;
     height: auto;
   }
 
