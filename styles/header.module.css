@@ -601,7 +601,7 @@
     justify-content: space-between;
     padding-top: 1rem;
     width: 100%;
-    height: 15vh;
+    height: 5vh;
     
   }
 
@@ -714,6 +714,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    
   }
 
   .navigation ul {
@@ -739,6 +740,7 @@
     margin-right: 1rem;
     border-radius: 10px;
     color: white !important;
+    border: none;
   }
 }
 
@@ -906,10 +908,7 @@
   }
 }
 
-.homeMenu{
 
-
-}
 
 .homeMenu ul {
   display: flex;
@@ -918,15 +917,10 @@
   background-color: black;
   color: white;
   padding: 10px;
-
   margin: 1em 0;
   position: fixed;
   top: 90px;
   left: 230px;
-}
-
-.homeMenu ul li{
-
 }
 
 

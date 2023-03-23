@@ -50,8 +50,8 @@ export default function Header() {
               All Departments
             </button> 
             
-            <Home_menu/>
-            <Home_menu/>
+            <Home_menu style={styles.navigation}/>
+            <Home_menu style={styles.navigation}/>
             <Test/>
 
            

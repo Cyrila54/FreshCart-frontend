@@ -17,10 +17,10 @@ export default function FeaturedCategories() {
     575: { items: 3 },
     768: { items: 3 },
     1000: { items: 4 },
-
     1200: { items: 6 },
   };
-  
+
+
   const category = [
     {
       id: 1,
