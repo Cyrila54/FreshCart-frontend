@@ -862,7 +862,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: bisque;
   }
 
   .navigation{
@@ -871,7 +870,6 @@
     align-items: center;
     width: 100%;
     z-index: 99;
-    background-color: aqua;
   }
 
 
