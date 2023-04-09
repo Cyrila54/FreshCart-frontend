@@ -50,19 +50,19 @@ export default function Header() {
               All Departments
             </button> 
             
-            <Home_menu style={styles.navigation}/>
-            <Home_menu style={styles.navigation}/>
-            <Test/>
+{/*             <Home_menu style={styles.navigation}/>
+            <Home_menu style={styles.navigation}/> */}
+            
 
            
-            
-{/*             <li>Shop</li>
+            <ul>
+             <li>Shop</li>
             <li>Store</li>
             <li>Mega Menu</li>
             <li>Pages</li>
             <li>Account</li>
-            <li>Dashboard</li> */}
-            
+            <li>Dashboard</li>
+            </ul>
           
         </div>
         
